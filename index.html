@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catcaller 1.0.1</title>
+    <title>Catcaller 1.1</title>
     <link rel="stylesheet" href="style.css" />
     <!-- Font Awesome -->
     <script
@@ -35,9 +35,29 @@
 
       <h3>What will you call your cat?</h3>
       <p class="box">
-        Welcome to the cat name generator. Click 'generate' to discover a name
-        you may not have thought of.
+        Select an option and tap 'generate' to discover a name you may not have
+        thought of.
       </p>
+      <h3>Options:</h3>
+      <div class="options">
+        <label class="checkbox">
+          <input type="checkbox" name="" id="male" onclick="checkMale()" />
+          <span id="maleChoice">Male</span>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="" id="female" onclick="checkFemale()" />
+          <span id="femaleChoice">Female</span>
+        </label>
+        <label class="checkbox">
+          <input
+            type="checkbox"
+            name=""
+            id="neutral"
+            onclick="checkNeutral()"
+          />
+          <span id="neutralChoice">Neutral</span>
+        </label>
+      </div>
       <div class="answer">
         <button><span>Generate</span></button>
         <h2>????</h2>

@@ -24,9 +24,6 @@ button {
   border-style: none;
   background-color: #4a403a;
   color: #f7a440;
-}
-
-button {
   touch-action: none;
 }
 
@@ -47,7 +44,8 @@ h1 {
 }
 
 h3,
-p {
+p,
+.options {
   color: #eeeeee;
   font-family: "Cabin", sans-serif;
 }
@@ -70,10 +68,44 @@ p {
   max-width: 480px;
 }
 
+.checkbox {
+  display: inline-flex;
+  border-color: #4a403a;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.checkbox > span {
+  padding: 0.3rem 1rem;
+}
+
+.checkbox > input {
+  height: 25px;
+  width: 25px;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  outline: none;
+  transition-duration: 0.5s;
+}
+
+.checkbox > input:checked {
+  border: 1px solid #eeeeee;
+  background-color: #f7a440;
+}
+
 .icon {
   color: #eeeeee;
   padding-left: 10px;
   font-size: 4rem;
+}
+
+.options {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .social-icon {
