@@ -4,19 +4,23 @@
 
 # Roadmap
 
- **v1.0**
+**v1.0**
 
 - More than 100 possible names to generate.
 
- **v1.0.1**
+  **v1.0.1**
 
 - Adjusted the padding of the generated name so that longer names appear one a single line.
 - Removed the version number from site title.
 
- **v1.1**
+  **v1.1**
 
 - Added option to filter names based on sex
 - More names
+
+**v1.2**
+
+- Added tip jar
 
 ## **Future updates:**
 
